@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>450975805182-iq11b27e62l8ku9k6g84c1a3ak0np98h.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.450975805182-iq11b27e62l8ku9k6g84c1a3ak0np98h</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBh9YOTHQ-22sVL87zxd4QWStuwc7HOeBY</string>
+	<key>GCM_SENDER_ID</key>
+	<string>450975805182</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>USP.Ignis-Host</string>
+	<key>PROJECT_ID</key>
+	<string>ignis-d732c</string>
+	<key>STORAGE_BUCKET</key>
+	<string>ignis-d732c.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:450975805182:ios:50ec9ae07bc4abac</string>
+	<key>DATABASE_URL</key>
+	<string>https://ignis-d732c.firebaseio.com</string>
+</dict>
+</plist>
