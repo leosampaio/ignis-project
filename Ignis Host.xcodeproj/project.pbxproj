@@ -7,7 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E9533DA1151AF4B0ADA98A5 /* Pods_Ignis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A729D4CE36B3E691343B46DE /* Pods_Ignis.framework */; };
 		8F9945DDE08DB629A10B09FE /* Pods_Ignis_Host.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BE44141C83EB7BCFAE4EB76 /* Pods_Ignis_Host.framework */; };
+		A80F4F761DEFB98F004B5D77 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A80F4F751DEFB98F004B5D77 /* GoogleService-Info.plist */; };
+		A80F4F781DEFBB10004B5D77 /* Pods_Ignis_Host.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BE44141C83EB7BCFAE4EB76 /* Pods_Ignis_Host.framework */; };
+		A80F4F7A1DEFC555004B5D77 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89EEE671DD90C2F0010F568 /* LoginViewController.swift */; };
+		A80F4F7B1DEFC555004B5D77 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89EEE781DD9297D0010F568 /* SignupViewController.swift */; };
 		A89EEE661DD90C2F0010F568 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89EEE651DD90C2F0010F568 /* AppDelegate.swift */; };
 		A89EEE681DD90C2F0010F568 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89EEE671DD90C2F0010F568 /* LoginViewController.swift */; };
 		A89EEE6B1DD90C2F0010F568 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A89EEE691DD90C2F0010F568 /* Main.storyboard */; };
@@ -26,12 +31,26 @@
 		A89EEE8F1DDA17C00010F568 /* LocationAddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89EEE8E1DDA17C00010F568 /* LocationAddViewController.swift */; };
 		A89EEE911DDA18520010F568 /* HostingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89EEE901DDA18520010F568 /* HostingViewController.swift */; };
 		A8A2F00D1DDA205A00C80A88 /* UIButton+LoadingIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A2F00C1DDA205A00C80A88 /* UIButton+LoadingIndicator.swift */; };
+		A8A2F0151DDA8B8100C80A88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A2F0141DDA8B8100C80A88 /* AppDelegate.swift */; };
+		A8A2F01C1DDA8B8100C80A88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8A2F01B1DDA8B8100C80A88 /* Assets.xcassets */; };
+		A8A2F01F1DDA8B8100C80A88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8A2F01D1DDA8B8100C80A88 /* LaunchScreen.storyboard */; };
+		A8A2F0281DDA8EA300C80A88 /* SingleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A2F0251DDA8EA300C80A88 /* SingleViewController.swift */; };
+		A8A2F0291DDA8EA300C80A88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8A2F0261DDA8EA300C80A88 /* Main.storyboard */; };
+		A8A45FBA1DEFD95200AF17DA /* UIButton+LoadingIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A2F00C1DDA205A00C80A88 /* UIButton+LoadingIndicator.swift */; };
+		A8C5FD911DDB890500DD8061 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C5FD901DDB890500DD8061 /* User.swift */; };
+		A8C5FD921DDB890E00DD8061 /* Host.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89EEE811DD92A990010F568 /* Host.swift */; };
+		A8C5FD931DDB890E00DD8061 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C5FD901DDB890500DD8061 /* User.swift */; };
+		A8C5FD941DDB890E00DD8061 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89EEE831DD92AA60010F568 /* Location.swift */; };
+		A8C5FD951DDB890E00DD8061 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89EEE851DD92AAF0010F568 /* Event.swift */; };
+		A8C5FD961DDB890E00DD8061 /* EventTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89EEE871DD92ACD0010F568 /* EventTemplate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		42E3578A3858C8A50AC770E6 /* Pods-Ignis Host.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ignis Host.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Ignis Host/Pods-Ignis Host.debug.xcconfig"; sourceTree = "<group>"; };
 		7BE44141C83EB7BCFAE4EB76 /* Pods_Ignis_Host.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ignis_Host.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		83BECE1F49E46AF6916917B7 /* Pods-Ignis Host.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ignis Host.release.xcconfig"; path = "Pods/Target Support Files/Pods-Ignis Host/Pods-Ignis Host.release.xcconfig"; sourceTree = "<group>"; };
+		A729D4CE36B3E691343B46DE /* Pods_Ignis.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ignis.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A80F4F751DEFB98F004B5D77 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		A89EEE621DD90C2F0010F568 /* Ignis Host.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ignis Host.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A89EEE651DD90C2F0010F568 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A89EEE671DD90C2F0010F568 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -53,6 +72,17 @@
 		A89EEE8E1DDA17C00010F568 /* LocationAddViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationAddViewController.swift; sourceTree = "<group>"; };
 		A89EEE901DDA18520010F568 /* HostingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HostingViewController.swift; sourceTree = "<group>"; };
 		A8A2F00C1DDA205A00C80A88 /* UIButton+LoadingIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+LoadingIndicator.swift"; sourceTree = "<group>"; };
+		A8A2F0121DDA8B8100C80A88 /* Ignis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ignis.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8A2F0141DDA8B8100C80A88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A8A2F01B1DDA8B8100C80A88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A8A2F01E1DDA8B8100C80A88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A8A2F0201DDA8B8100C80A88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8A2F0241DDA8BB000C80A88 /* Ignis.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Ignis.entitlements; sourceTree = "<group>"; };
+		A8A2F0251DDA8EA300C80A88 /* SingleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleViewController.swift; sourceTree = "<group>"; };
+		A8A2F0261DDA8EA300C80A88 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		A8C5FD901DDB890500DD8061 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		C28C854443BAD5455B758899 /* Pods-Ignis.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ignis.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Ignis/Pods-Ignis.debug.xcconfig"; sourceTree = "<group>"; };
+		D0D4354A85840254CD5C6BD4 /* Pods-Ignis.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ignis.release.xcconfig"; path = "Pods/Target Support Files/Pods-Ignis/Pods-Ignis.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +94,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A8A2F00F1DDA8B8100C80A88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A80F4F781DEFBB10004B5D77 /* Pods_Ignis_Host.framework in Frameworks */,
+				7E9533DA1151AF4B0ADA98A5 /* Pods_Ignis.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -72,6 +111,8 @@
 			children = (
 				42E3578A3858C8A50AC770E6 /* Pods-Ignis Host.debug.xcconfig */,
 				83BECE1F49E46AF6916917B7 /* Pods-Ignis Host.release.xcconfig */,
+				C28C854443BAD5455B758899 /* Pods-Ignis.debug.xcconfig */,
+				D0D4354A85840254CD5C6BD4 /* Pods-Ignis.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -80,6 +121,7 @@
 			isa = PBXGroup;
 			children = (
 				7BE44141C83EB7BCFAE4EB76 /* Pods_Ignis_Host.framework */,
+				A729D4CE36B3E691343B46DE /* Pods_Ignis.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -87,7 +129,10 @@
 		A89EEE591DD90C2F0010F568 = {
 			isa = PBXGroup;
 			children = (
+				A8A2F00B1DDA201B00C80A88 /* Helpers */,
+				A89EEE801DD92A830010F568 /* Models */,
 				A89EEE641DD90C2F0010F568 /* Ignis Host */,
+				A8A2F0131DDA8B8100C80A88 /* Ignis */,
 				A89EEE631DD90C2F0010F568 /* Products */,
 				608D4DC3BF9C92FF8379B585 /* Pods */,
 				950574048ED7CEA84FFE729F /* Frameworks */,
@@ -98,6 +143,7 @@
 			isa = PBXGroup;
 			children = (
 				A89EEE621DD90C2F0010F568 /* Ignis Host.app */,
+				A8A2F0121DDA8B8100C80A88 /* Ignis.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -106,8 +152,6 @@
 			isa = PBXGroup;
 			children = (
 				A89EEE8B1DD94E750010F568 /* Ignis Host.entitlements */,
-				A8A2F00B1DDA201B00C80A88 /* Helpers */,
-				A89EEE801DD92A830010F568 /* Models */,
 				A89EEE771DD921710010F568 /* Controllers */,
 				A89EEE651DD90C2F0010F568 /* AppDelegate.swift */,
 				A89EEE691DD90C2F0010F568 /* Main.storyboard */,
@@ -134,11 +178,13 @@
 			isa = PBXGroup;
 			children = (
 				A89EEE811DD92A990010F568 /* Host.swift */,
+				A8C5FD901DDB890500DD8061 /* User.swift */,
 				A89EEE831DD92AA60010F568 /* Location.swift */,
 				A89EEE851DD92AAF0010F568 /* Event.swift */,
 				A89EEE871DD92ACD0010F568 /* EventTemplate.swift */,
 			);
 			name = Models;
+			path = "Ignis Host";
 			sourceTree = "<group>";
 		};
 		A8A2F0071DDA1A0100C80A88 /* Hosting */ = {
@@ -183,6 +229,22 @@
 				A8A2F00C1DDA205A00C80A88 /* UIButton+LoadingIndicator.swift */,
 			);
 			name = Helpers;
+			path = "Ignis Host";
+			sourceTree = "<group>";
+		};
+		A8A2F0131DDA8B8100C80A88 /* Ignis */ = {
+			isa = PBXGroup;
+			children = (
+				A8A2F0251DDA8EA300C80A88 /* SingleViewController.swift */,
+				A8A2F0261DDA8EA300C80A88 /* Main.storyboard */,
+				A8A2F0241DDA8BB000C80A88 /* Ignis.entitlements */,
+				A8A2F0141DDA8B8100C80A88 /* AppDelegate.swift */,
+				A8A2F01B1DDA8B8100C80A88 /* Assets.xcassets */,
+				A80F4F751DEFB98F004B5D77 /* GoogleService-Info.plist */,
+				A8A2F01D1DDA8B8100C80A88 /* LaunchScreen.storyboard */,
+				A8A2F0201DDA8B8100C80A88 /* Info.plist */,
+			);
+			path = Ignis;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -208,6 +270,26 @@
 			productReference = A89EEE621DD90C2F0010F568 /* Ignis Host.app */;
 			productType = "com.apple.product-type.application";
 		};
+		A8A2F0111DDA8B8100C80A88 /* Ignis */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8A2F0211DDA8B8100C80A88 /* Build configuration list for PBXNativeTarget "Ignis" */;
+			buildPhases = (
+				11235CC089F1D40D87BF3F7C /* [CP] Check Pods Manifest.lock */,
+				A8A2F00E1DDA8B8100C80A88 /* Sources */,
+				A8A2F00F1DDA8B8100C80A88 /* Frameworks */,
+				A8A2F0101DDA8B8100C80A88 /* Resources */,
+				B1ED740BC2B1EAA1904F9015 /* [CP] Embed Pods Frameworks */,
+				54A356387ECCED501A63B6A3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ignis;
+			productName = Ignis;
+			productReference = A8A2F0121DDA8B8100C80A88 /* Ignis.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -219,6 +301,16 @@
 				ORGANIZATIONNAME = USP;
 				TargetAttributes = {
 					A89EEE611DD90C2F0010F568 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = SEGXTP26Q6;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
+					};
+					A8A2F0111DDA8B8100C80A88 = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = SEGXTP26Q6;
 						ProvisioningStyle = Automatic;
@@ -244,6 +336,7 @@
 			projectRoot = "";
 			targets = (
 				A89EEE611DD90C2F0010F568 /* Ignis Host */,
+				A8A2F0111DDA8B8100C80A88 /* Ignis */,
 			);
 		};
 /* End PBXProject section */
@@ -260,9 +353,50 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A8A2F0101DDA8B8100C80A88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8A2F01F1DDA8B8100C80A88 /* LaunchScreen.storyboard in Resources */,
+				A8A2F01C1DDA8B8100C80A88 /* Assets.xcassets in Resources */,
+				A8A2F0291DDA8EA300C80A88 /* Main.storyboard in Resources */,
+				A80F4F761DEFB98F004B5D77 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		11235CC089F1D40D87BF3F7C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		54A356387ECCED501A63B6A3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Ignis/Pods-Ignis-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		762DA725A0300FCA2AC8F73E /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -276,6 +410,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Ignis Host/Pods-Ignis Host-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1ED740BC2B1EAA1904F9015 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Ignis/Pods-Ignis-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		BA9B3FF1C6AFDEA3F6780EC9 /* [CP] Check Pods Manifest.lock */ = {
@@ -323,12 +472,30 @@
 				A89EEE7B1DD9299F0010F568 /* SetupHostingViewController.swift in Sources */,
 				A8A2F00D1DDA205A00C80A88 /* UIButton+LoadingIndicator.swift in Sources */,
 				A89EEE841DD92AA60010F568 /* Location.swift in Sources */,
+				A8C5FD911DDB890500DD8061 /* User.swift in Sources */,
 				A89EEE821DD92A990010F568 /* Host.swift in Sources */,
 				A89EEE7F1DD929CE0010F568 /* LocationsTableViewController.swift in Sources */,
 				A89EEE681DD90C2F0010F568 /* LoginViewController.swift in Sources */,
 				A89EEE7D1DD929BD0010F568 /* EventsTableViewController.swift in Sources */,
 				A89EEE881DD92ACD0010F568 /* EventTemplate.swift in Sources */,
 				A89EEE661DD90C2F0010F568 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8A2F00E1DDA8B8100C80A88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8A45FBA1DEFD95200AF17DA /* UIButton+LoadingIndicator.swift in Sources */,
+				A80F4F7B1DEFC555004B5D77 /* SignupViewController.swift in Sources */,
+				A8A2F0281DDA8EA300C80A88 /* SingleViewController.swift in Sources */,
+				A8A2F0151DDA8B8100C80A88 /* AppDelegate.swift in Sources */,
+				A8C5FD931DDB890E00DD8061 /* User.swift in Sources */,
+				A8C5FD961DDB890E00DD8061 /* EventTemplate.swift in Sources */,
+				A80F4F7A1DEFC555004B5D77 /* LoginViewController.swift in Sources */,
+				A8C5FD941DDB890E00DD8061 /* Location.swift in Sources */,
+				A8C5FD951DDB890E00DD8061 /* Event.swift in Sources */,
+				A8C5FD921DDB890E00DD8061 /* Host.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,6 +514,14 @@
 			isa = PBXVariantGroup;
 			children = (
 				A89EEE6F1DD90C2F0010F568 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A8A2F01D1DDA8B8100C80A88 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8A2F01E1DDA8B8100C80A88 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -394,7 +569,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -437,7 +612,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -475,6 +650,38 @@
 			};
 			name = Release;
 		};
+		A8A2F0221DDA8B8100C80A88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C28C854443BAD5455B758899 /* Pods-Ignis.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Ignis/Ignis.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = SEGXTP26Q6;
+				INFOPLIST_FILE = Ignis/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = USP.Ignis;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A8A2F0231DDA8B8100C80A88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0D4354A85840254CD5C6BD4 /* Pods-Ignis.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Ignis/Ignis.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = SEGXTP26Q6;
+				INFOPLIST_FILE = Ignis/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = USP.Ignis;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -492,6 +699,15 @@
 			buildConfigurations = (
 				A89EEE751DD90C2F0010F568 /* Debug */,
 				A89EEE761DD90C2F0010F568 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8A2F0211DDA8B8100C80A88 /* Build configuration list for PBXNativeTarget "Ignis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8A2F0221DDA8B8100C80A88 /* Debug */,
+				A8A2F0231DDA8B8100C80A88 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

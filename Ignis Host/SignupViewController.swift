@@ -18,7 +18,9 @@ class SignupViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        self.textFieldSignupEmail.delegate = self
+        self.textFieldSignupPassword.delegate = self
+
         
         FIRAuth.auth()!.addStateDidChangeListener() { auth, user in
             if user != nil {

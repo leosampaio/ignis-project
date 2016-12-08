@@ -17,13 +17,15 @@ struct EventTemplate {
     let locationID: String
     let hostID: String
     let ref: FIRDatabaseReference?
+    let isBeingHosted: Bool
     
-    init(name: String, locationID: String, hostID: String, key: String = "") {
+    init(name: String, locationID: String, hostID: String, key: String = "", isBeingHosted: Bool = false) {
         self.key = key
         self.name = name
         self.locationID = locationID
         self.hostID = hostID
         self.ref = nil
+        self.isBeingHosted = isBeingHosted
     }
     
     init(snapshot: FIRDataSnapshot) {
@@ -32,6 +34,7 @@ struct EventTemplate {
         name = snapshotValue["name"] as! String
         locationID = snapshotValue["locationID"] as! String
         hostID = snapshotValue["hostID"] as! String
+        isBeingHosted = snapshotValue["isBeingHosted"] as! Bool
         ref = snapshot.ref
     }
     
@@ -39,7 +42,8 @@ struct EventTemplate {
         return [
             "name": name,
             "locationID": locationID,
-            "hostID": hostID
+            "hostID": hostID,
+            "isBeingHosted": isBeingHosted
         ]
     }
 }

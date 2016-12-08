@@ -49,6 +49,7 @@ class LoginViewController: UIViewController {
 
 extension LoginViewController: UITextFieldDelegate {
     
+    // TODO: make this delegate consistent with the other controllers
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         if textField == textFieldLoginEmail {
             textFieldLoginPassword.becomeFirstResponder()
